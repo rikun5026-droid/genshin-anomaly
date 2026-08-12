@@ -11,7 +11,7 @@ interface Options {
 interface DataPoint {
 	max: dataSource;
 	notes?: Partial<Record<keyof Options, string>>;
-	region: 'Mondstadt' | 'Liyue' | 'Inazuma' | 'Sumeru' | 'Fontaine' | 'Natlan' | 'Nod-Krai';
+	region: 'Mondstadt' | 'Liyue' | 'Inazuma' | 'Sumeru' | 'Fontaine' | 'Natlan' | 'Nod-Krai' | 'Snezhnaya';
 	moraChanges: string;
 	chestChanges: string;
 }
