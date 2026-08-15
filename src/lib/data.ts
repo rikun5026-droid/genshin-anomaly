@@ -429,31 +429,31 @@ export const data: Record<string, DataPoint> = {
 		chestChanges: '-'
 	},
 	'Volkodlak Tundra': {
-		max: 109.5,
+		max: 108.9,
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Everfrozen Earth': {
-		max: 109.5,
+		max: 108.1,
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Fellfrost Peak': {
-		max: 109.5,
+		max: 109.4,
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Flamefeather Valley': {
-		max: 109.5,
+		max: 110.6,
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'White Birch Snowgrave': {
-		max: 109.5,
+		max: 109.3,
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
