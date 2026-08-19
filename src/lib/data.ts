@@ -361,90 +361,105 @@ export const data: Record<string, DataPoint> = {
 	},
 	'Paha Isle': {
 		max: 110.2,
+		notes: { default: '파하섬 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
 	'Lempo Isle': {
 		max: 109.4,
+		notes: { default: '렘포섬 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.0%-0.1%',
 		chestChanges: '0.2%-0.3%'
 	},
 	'Hiisi Island': {
 		max: 106.3,
+		notes: { default: '히이시섬 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
 	'Voidsea Outlook': {
 		max: 110.3,
+		notes: { default: '공허해견문대 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.4%-0.5%'
 	},
 	'Wavechaser Plain': {
 		max: 108.9,
+		notes: { default: '파도사냥꾼 평원 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
 	'Ashveil Peak': {
 		max: 113.4,
+		notes: { default: '잿빛베일 봉우리 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.6%-0.7%'
 	},
 	'Dunanna Pit': {
 		max: 107.1,
+		notes: { default: '두난나 구덩이 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Lunar Highlands': {
 		max: 108.4,
+		notes: { default: '달빛 고원 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Moontide Sea': {
 		max: 118.3,
+		notes: { default: '문타이드해 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Dark Side of the Moon': {
 		max: 109.5,
+		notes: { default: '달의 어두운 면 탐사도 데이터 반영' },
 		region: 'Nod-Krai',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Volkodlak Tundra': {
 		max: 108.9,
+		notes: { default: '볼코들라크 툰드라 탐사도 데이터 반영' },
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Everfrozen Earth': {
 		max: 108.1,
+		notes: { default: '영원한 동토 탐사도 데이터 반영' },
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Fellfrost Peak': {
 		max: 109.4,
+		notes: { default: '지옥서리 봉우리 탐사도 데이터 반영' },
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'Flamefeather Valley': {
 		max: 110.6,
+		notes: { default: '화염깃털 골짜기 탐사도 데이터 반영' },
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
 	'White Birch Snowgrave': {
 		max: 109.3,
+		notes: { default: '자작나무 눈무덤 탐사도 데이터 반영' },
 		region: 'Snezhnaya',
 		moraChanges: '-',
 		chestChanges: '-'
@@ -452,8 +467,4 @@ export const data: Record<string, DataPoint> = {
 };
 
 export function getDataPoint(v: dataSource, opts: Options) {
-	if (typeof v == 'function') {
-		return v(opts);
-	}
-	return v;
-}
+
