@@ -467,4 +467,9 @@ export const data: Record<string, DataPoint> = {
 };
 
 export function getDataPoint(v: dataSource, opts: Options) {
+	if (typeof v == 'function') {
+		return v(opts);
+	}
 
+	return v;
+}
