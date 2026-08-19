@@ -12,13 +12,13 @@
 
 	const languageNames: Record<string, string> = {
 		en: 'English',
-		'zh-Hans': '简体中文'
-	};
-
+		'zh-Hans': '简体中文',
+        ko: '한국어'          //
+};
 	async function setup() {
 		register('en', () => import('$lib/locales/en.json'));
 		register('zh-Hans', () => import('$lib/locales/zh-Hans.json'));
-
+        register('ko', () => import('$lib/locales/ko.json'));   
 		function getFinalInitialLocale() {
 			let zhForm,
 				orgNavLang = getLocaleFromNavigator() || '',
