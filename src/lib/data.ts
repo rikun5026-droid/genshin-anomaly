@@ -1,5 +1,5 @@
 export const data: Record<string, DataPoint> = {
-	'Starfell Valley': {
+	'별이 떨어지는 산골짜기': {
 		max: (opts) => {
 			if (opts.v1_6_goldenApple) {
 				return 102.5;
@@ -7,30 +7,30 @@ export const data: Record<string, DataPoint> = {
 			return 102.1;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Mondstadt numbers can be off',
-			v1_6_goldenApple: '+1 Chest (+0.5%) from 1.6 Golden Apple Archipelago Event'
+			default: '초기 버전의 버그 및 수정으로 인해 몬드 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_6_goldenApple: '1.6 금사과 제도 이벤트 상자 +1개 (+0.5%) 반영'
 		},
-		region: 'Mondstadt',
+		region: '몬드',
 		moraChanges: '--',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Galesong Hill': {
+	'울부짖는 언덕': {
 		max: 123.9,
-		notes: { default: 'Due to early Version bugs and bug fixes, Mondstadt numbers can be off' },
-		region: 'Mondstadt',
+		notes: { default: '초기 버전의 버그 및 수정으로 인해 몬드 지역의 수치는 오차가 있을 수 있습니다.' },
+		region: '몬드',
 		moraChanges: '--',
 		chestChanges: '0.6%-0.7%'
 	},
-	'Windwail Highland': {
+	'창풍 고지대': {
 		max: 109.1,
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Mondstadt numbers can be off'
+			default: '초기 버전의 버그 및 수정으로 인해 몬드 지역의 수치는 오차가 있을 수 있습니다.'
 		},
-		region: 'Mondstadt',
+		region: '몬드',
 		moraChanges: '--',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Brightcrown Mountains': {
+	'크라운 마운틴': {
 		max: (opts) => {
 			if (opts.v2_2_shadow) {
 				return 109.0;
@@ -38,14 +38,14 @@ export const data: Record<string, DataPoint> = {
 			return 108.5;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Mondstadt numbers can be off',
-			v2_2_shadow: '+1 Chest (+0.5%) from 2.2 Shadow of the Ancients Event'
+			default: '초기 버전의 버그 및 수정으로 인해 몬드 지역의 수치는 오차가 있을 수 있습니다.',
+			v2_2_shadow: '2.2 고대의 그림자 이벤트 상자 +1개 (+0.5%) 반영'
 		},
-		region: 'Mondstadt',
+		region: '몬드',
 		moraChanges: '--',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Bishui Plain': {
+	'벽수원': {
 		max: (opts) => {
 			if (opts.v1_3_laternRite) {
 				return 106.0;
@@ -53,14 +53,14 @@ export const data: Record<string, DataPoint> = {
 			return 105.7;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Liyue numbers can be off',
-			v1_3_laternRite: '+2 (+0.5%) Chest from 1.3 Lantern Rite Event'
+			default: '초기 버전의 버그 및 수정으로 인해 리월 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_3_laternRite: '1.3 해등절 이벤트 상자 +2개 (+0.5%) 반영'
 		},
-		region: 'Liyue',
+		region: '리월',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.2%-0.3%'
 	},
-	Minlin: {
+	'민림': {
 		max: (opts) => {
 			if (opts.v1_3_laternRite) {
 				return 110.1;
@@ -68,14 +68,14 @@ export const data: Record<string, DataPoint> = {
 			return 109.9;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Liyue numbers can be off',
-			v1_3_laternRite: '+3 Chest (+0.3%) from 1.3 Lantern Rite Event'
+			default: '초기 버전의 버그 및 수정으로 인해 리월 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_3_laternRite: '1.3 해등절 이벤트 상자 +3개 (+0.3%) 반영'
 		},
-		region: 'Liyue',
+		region: '리월',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.1%-0.2%'
 	},
-	'Sea of Clouds': {
+	'운래해': {
 		max: (opts) => {
 			if (opts.v1_3_laternRite) {
 				return 109.8;
@@ -83,15 +83,14 @@ export const data: Record<string, DataPoint> = {
 			return 108;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Liyue numbers can be off',
-			v1_3_laternRite: '+2 Chests (+1.8%) from 1.3 Lantern Rite Event'
+			default: '초기 버전의 버그 및 수정으로 인해 리월 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_3_laternRite: '1.3 해등절 이벤트 상자 +2개 (+1.8%) 반영'
 		},
-		region: 'Liyue',
+		region: '리월',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.3%-0.4%'
 	},
-
-	Lisha: {
+	'리사교': {
 		max: (opts) => {
 			if (opts.v1_3_laternRite && opts.v2_2_shadow) {
 				return 110.2;
@@ -105,15 +104,15 @@ export const data: Record<string, DataPoint> = {
 			return 109.1;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Liyue numbers can be off',
-			v1_3_laternRite: '+1 Chests (+0.6%) from 1.3 Lantern Rite Event',
-			v2_2_shadow: '+1 Chest (+0.6%) from 2.2 Shadow of the Ancients Event'
+			default: '초기 버전의 버그 및 수정으로 인해 리월 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_3_laternRite: '1.3 해등절 이벤트 상자 +1개 (+0.6%) 반영',
+			v2_2_shadow: '2.2 고대의 그림자 이벤트 상자 +1개 (+0.6%) 반영'
 		},
-		region: 'Liyue',
+		region: '리월',
 		moraChanges: '--',
 		chestChanges: '0.5%-0.6%'
 	},
-	'Qiongji Estuary': {
+	'경기 들판': {
 		max: (opts) => {
 			if (opts.v1_3_laternRite && opts.v2_2_shadow) {
 				return 109;
@@ -124,337 +123,329 @@ export const data: Record<string, DataPoint> = {
 			if (opts.v1_3_laternRite) {
 				return 108.7;
 			}
-
 			return 107.3;
 		},
 		notes: {
-			default: 'Due to early Version bugs and bug fixes, Liyue numbers can be off',
-			v1_3_laternRite: '+4 Chests (+1.4%) from 1.3 Lantern Rite Event',
-			v2_2_shadow: '+1 Chest (+0.3%) from 2.2 Shadow of the Ancients Event'
+			default: '초기 버전의 버그 및 수정으로 인해 리월 지역의 수치는 오차가 있을 수 있습니다.',
+			v1_3_laternRite: '1.3 해등절 이벤트 상자 +4개 (+1.4%) 반영',
+			v2_2_shadow: '2.2 고대의 그림자 이벤트 상자 +1개 (+0.3%) 반영'
 		},
-		region: 'Liyue',
+		region: '리월',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Narukami Island': {
+	'나루카미섬': {
 		max: 111.7,
 		notes: {
-			v2_0_lostRiches: 'your Exploration Progress can be higher due to the 2.0 Lost Riches Event'
+			v2_0_lostRiches: '2.0 잃어버린 보물 이벤트로 인해 탐사도가 더 높게 나타날 수 있습니다.'
 		},
-		region: 'Inazuma',
+		region: '이나즈마',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.3%-0.4%'
 	},
-	Kannazuka: {
+	'칸나즈카': {
 		max: (opts) => {
 			if (opts.v2_2_shadow) {
 				return 115.7;
 			}
-
 			return 115.3;
 		},
 		notes: {
-			v2_2_shadow: '+1 (+0.5%) Chest from 2.2 Shadow of the Ancients Event',
-			v2_0_lostRiches: 'your Exploration Progress can be higher due to 2.0 Lost Riches Event'
+			v2_2_shadow: '2.2 고대의 그림자 이벤트 상자 +1개 (+0.5%) 반영',
+			v2_0_lostRiches: '2.0 잃어버린 보물 이벤트로 인해 탐사도가 더 높게 나타날 수 있습니다.'
 		},
-		region: 'Inazuma',
+		region: '이나즈마',
 		moraChanges: '0.4%-0.5%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Yashiori Island': {
+	'야시오리섬': {
 		max: 118.5,
 		notes: {
-			v2_0_lostRiches: 'your Exploration Progress can be higher due to 2.0 Lost Riches Event'
+			v2_0_lostRiches: '2.0 잃어버린 보물 이벤트로 인해 탐사도가 더 높게 나타날 수 있습니다.'
 		},
-		region: 'Inazuma',
+		region: '이나즈마',
 		moraChanges: '0.5%-0.6%',
 		chestChanges: '0.5%-0.6%'
 	},
-	'Seirai Island': {
+	'세이라이섬': {
 		max: 110,
-		region: 'Inazuma',
+		region: '이나즈마',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Watatsumi Island': {
+	'와타츠미섬': {
 		max: 109.6,
-		notes: { default: 'There are 4 missable Wooden crates in Suigetsu Pool, each worth 0.5%' },
-		region: 'Inazuma',
+		notes: { default: '스이게츠 연못에 놓치기 쉬운 나무 상자 4개가 존재하며, 각각 0.5%의 수치를 가집니다.' },
+		region: '이나즈마',
 		moraChanges: '0.5%-0.6%',
 		chestChanges: '0.5%-0.6%'
 	},
-	'Tsurumi Island': {
+	'츠루미': {
 		max: 110,
-		region: 'Inazuma',
+		region: '이나즈마',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Lokapala Jungle': {
+	'로카팔라 숲': {
 		max: 120.4,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.6%-0.7%'
 	},
-	'Ardravi Valley': {
+	'아르드라비 골짜기': {
 		max: 112.5,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Vissudha Field': {
+	'비슈다 초원': {
 		max: 114.5,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.7%-0.8%'
 	},
-	'Ashavan Realm': {
+	'아샤반의 땅': {
 		max: 115.4,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Avidya Forest': {
+	'아비디야 숲': {
 		max: 116.4,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.6%-0.7%'
 	},
-	'Lost Nursery': {
+	'잃어버린 모밭': {
 		max: 108,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '1.6%-1.7%',
 		chestChanges: '4.0%-4.1%'
 	},
-	Vanarana: { max: 113.8, region: 'Sumeru', moraChanges: '1.2%-1.3%', chestChanges: '3.0%-3.1%' },
-	'Land of Lower Setekh': {
+	'바나라나': { max: 113.8, region: '수메르', moraChanges: '1.2%-1.3%', chestChanges: '3.0%-3.1%' },
+	'하바람 침식지': {
 		max: 114.5,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Hypostyle Desert': {
+	'열주 모래벌판': {
 		max: 119.1,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Land of Upper Setekh': {
+	'상세텍 골짜기': {
 		max: 112.8,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.8%-0.9%'
 	},
-	'Desert of Hadramaveth': {
+	'하드라마베스 사막': {
 		max: 113.4,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '<0.1%',
 		chestChanges: '0.1%-0.2%'
 	},
-	'Gavireh Lajavard': {
+	'라자바드 황야': {
 		max: 118.8,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Realm of Farakhkert': {
+	'파라컬트': {
 		max: 117.8,
-		region: 'Sumeru',
+		region: '수메르',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Belleau Region': {
+	'흰 이슬 구역': {
 		max: 112.4,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.4%-0.5%',
 		chestChanges: '1.0%-1.1%'
 	},
-	'Beryl Region': {
+	'푸른 수정 구역': {
 		max: 110.6,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Court of Fontaine': {
+	'폰타인성 구역': {
 		max: 110.2,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '<0.1%',
 		chestChanges: '0.2%-0.3%'
 	},
-	'Liffey Region': {
+	'리피 구역': {
 		max: 112.1,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.5%-0.6%'
 	},
-	'Fontaine Research Institute of Kinetic Energy Engineering Region': {
+	'폰타인 운동에너지 공학 연구원 구역': {
 		max: 111.8,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Erinnyes Forest': {
+	'에리니에스 숲 구역': {
 		max: 106.9,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Morte Region': {
+	'모르트 구역': {
 		max: 114.1,
 		notes: {
 			default:
-				'Fixed Exploration % calculation in December 2023. Max Exploration progress can be 114.6'
+				'2023년 12월 탐사도 계산 공식이 수정되었습니다. 최대 탐사도는 114.6%까지 도달 가능합니다.'
 		},
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Nostoi Region': {
+	'노스토이 구역': {
 		max: 109.9,
-		region: 'Fontaine',
+		region: '폰타인',
 		moraChanges: '0.4%-0.5%',
 		chestChanges: '1.2%-1.3%'
 	},
-	'Tequemecan Valley': {
+	'굳센 바위 협곡': {
 		max: 109.8,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Basin of Unnumbered Flames': {
+	'불들의 잔': {
 		max: 113,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.5%-0.6%'
 	},
-	'Toyac Springs': {
+	'샘솟는 땅': {
 		max: 112.9,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Coatepec Mountain': {
+	'웅크린 석산': {
 		max: 111.4,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Tezcatepetonco Range': {
+	'거울벽산': {
 		max: 111.4,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.5%-0.6%'
 	},
-	Ochkanatlan: {
+	'오치카나타': {
 		max: 109.7,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Quahuacan Cliff': {
+	'깃가지 절벽': {
 		max: 108.5,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.3%-0.4%',
 		chestChanges: '0.9%-1.0%'
 	},
-	Atocpan: {
+	'풍요의 들판': {
 		max: 110,
-		region: 'Natlan',
+		region: '나타',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Easybreeze Holiday Resort': {
-		max: 110.3,
-		region: 'Natlan',
-		moraChanges: '0.0%-0.1%',
-		chestChanges: '0.2%-0.3%'
-	},
-	'Paha Isle': {
+	'파하섬': {
 		max: 110.2,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Lempo Isle': {
+	'렘포섬': {
 		max: 109.4,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.0%-0.1%',
 		chestChanges: '0.2%-0.3%'
 	},
-	'Hiisi Island': {
+	'히시섬': {
 		max: 106.3,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Voidsea Outlook': {
+	'허무 해안': {
 		max: 110.3,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.4%-0.5%'
 	},
-	'Wavechaser Plain': {
+	'파도 들판': {
 		max: 108.9,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.1%-0.2%',
 		chestChanges: '0.3%-0.4%'
 	},
-	'Ashveil Peak': {
+	'안개산': {
 		max: 113.4,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '0.2%-0.3%',
 		chestChanges: '0.6%-0.7%'
 	},
-	'Dunanna Pit': {
+	'두난나 공동': {
 		max: 107.1,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Lunar Highlands': {
+	'달 고지': {
 		max: 108.4,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Moontide Sea': {
+	'달 바다': {
 		max: 118.3,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Dark Side of the Moon': {
+	'달 뒷면': {
 		max: 109.5,
-		region: 'Nod-Krai',
+		region: '노드크라이',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Volkodlak Tundra': {
+	'고대 야수 벌판': {
 		max: 108.9,
-		region: 'Snezhnaya',
+		region: '스네즈나야',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Everfrozen Earth': {
+	'영구 동토': {
 		max: 108.1,
-		region: 'Snezhnaya',
+		region: '스네즈나야',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Fellfrost Peak': {
+	'서리 마루': {
 		max: 109.4,
-		region: 'Snezhnaya',
+		region: '스네즈나야',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'Flamefeather Valley': {
+	'화염깃 골짜기': {
 		max: 110.6,
-		region: 'Snezhnaya',
+		region: '스네즈나야',
 		moraChanges: '-',
 		chestChanges: '-'
 	},
-	'White Birch Snowgrave': {
+	'자작나무 눈무덤': {
 		max: 109.3,
-		region: 'Snezhnaya',
+		region: '스네즈나야',
 		moraChanges: '-',
 		chestChanges: '-'
 	}
